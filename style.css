@@ -1,3 +1,7 @@
+@font-face {
+	font-family: freestyle-script;
+	src: url(misc/freestyle.ttf);
+}
 html{
 	font-family: sans-serif;
 	font-size:20px;
@@ -19,8 +23,8 @@ header{
 	border-radius: 10px;
 }
 #cabecero{
-	font-size: 100px;
-	font-family: Minecraft-Ten;
+	font-size: 5em;
+	font-family: freestyle-script;
 	margin:10px;
 }
 
@@ -84,6 +88,13 @@ footer{
 	font-size: 40px;
 }
 
+.sub_container{
+	width: 600px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 50px;
+}
+
 .escudos{
 	display:inline-block;
 	height: 60px;
@@ -97,10 +108,20 @@ footer{
 }
 .nombre_equipo{
 	margin-top: 0px;
+	font-size: 0.8em;
 }
 
 .num_jornada{
-	font-size: 0.7em;
+	font-size: 0.6em;
 	text-align: center;
 	align-items: center;
+}
+
+.imagen_portada{
+	max-width: fit-content;
+	width: 90%;
+	border-radius: 20px;
+	font-size: 0.5em;
+	text-decoration: underline;
+	color: blueviolet;
 }

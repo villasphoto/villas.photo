@@ -44,22 +44,22 @@ footer{
 
 
 .section_title{
-	text-align:center;
-	color:white;
-	font-size:50px;
+	text-align: center;
+	color: white;
+	font-size: 50px;
 	font-variant: small-caps;
 }
 .section_subtitle{
-	text-align:center;
-	color:black;
-	font-size:40px;
+	text-align: center;
+	color: black;
+	font-size: 40px;
 	font-variant: small-caps;
 }
 .container{
-	position:relative;
-	padding:10px;
-	isolation:isolate;
-	overflow:visible;
+	position: relative;
+	padding: 50px;
+	isolation: isolate;
+	overflow: visible;
 	font-size: 25px;
 }
 .container::after{
@@ -88,8 +88,19 @@ footer{
 	display:inline-block;
 	height: 60px;
 	image-rendering: optimizeQuality;
+
 }
 
+.hyperlink{
+	text-decoration: none;
+	color: black;
+}
 .nombre_equipo{
 	margin-top: 0px;
+}
+
+.num_jornada{
+	font-size: 0.7em;
+	text-align: center;
+	align-items: center;
 }
